@@ -1,35 +1,77 @@
+/*iphoneおよび共通設定*/
+body {
+    
+}
+
+h2 {
+    font-size: 30px;
+}
+
 .container {
+    max-width: 960px;
     display: grid;
-    width: 100%
+    width: 100%;
 }
 
 header {
     display: flex;
     justify-content: space-between;
-    width: 960px;
+    width: 92%;
     padding: 0 4%;
+    margin-bottom: 10px;
 }
 
-.resume {
+header h1  {
     padding: 5px 10px;
-    margin: 10px 0 10px 300px;
     background-color: #000;
     color: #fff;
-    font-size: 15px;
 }
 
 header ul {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
-    width: 16%;
-    margin: 15px 150px 15px 0;
-    font-size: 12px;
+    padding: 5px 10px;
+    width: 220px;
 }
 
-.topphoto img {
-    width: 100%;
+.introduction {
+    width: 92%;
+    padding: 0 4%;
+    text-align: center;
+    margin: 70px 0;
+}
+
+.introduction_title {
+    width: 125px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #000;
+    margin: 0 auto 50px auto; 
+}
+
+.name {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.suzuki {
+    text-align: left;
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+.introduction_image img {
+    border-radius: 50%;
+}
+
+
+.topphoto {
+    background-image: url("../images/1920x1280.png") ;
+    background-position: center;
+    width: 100vw;
     height: 600px;
 }
 
-
+.profile img {
+    width: 100%;
+}
