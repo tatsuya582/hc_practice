@@ -1,6 +1,7 @@
 /*iphoneおよび共通設定*/
 body {
-    
+    width: 100%;
+    max-width: 960px;
 }
 
 h2 {
@@ -11,6 +12,7 @@ h2 {
     max-width: 960px;
     display: grid;
     width: 100%;
+    margin: 0 auto;
 }
 
 header {
@@ -18,7 +20,7 @@ header {
     justify-content: space-between;
     width: 92%;
     padding: 0 4%;
-    margin-bottom: 10px;
+    margin: 10px 0;
 }
 
 header h1  {
@@ -35,14 +37,14 @@ header ul {
     width: 220px;
 }
 
-.introduction {
+.introduction, .profile {
     width: 92%;
     padding: 0 4%;
     text-align: center;
     margin: 70px 0;
 }
 
-.introduction_title {
+.introduction_title, .profile_title {
     width: 125px;
     padding-bottom: 5px;
     border-bottom: 1px solid #000;
@@ -72,6 +74,23 @@ header ul {
     height: 600px;
 }
 
+.profile_title {
+    width: 250px;
+}
+
+.profile01 {
+    display: grid;
+    gap:10px 0;
+    margin-bottom: 20px;
+}
+
 .profile img {
     width: 100%;
+}
+
+footer {
+    text-align: center;
+    font-size: 7px;
+    padding-bottom: 10px;
+    border-bottom: 5px solid #000;
 }
