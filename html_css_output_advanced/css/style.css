@@ -1,0 +1,60 @@
+/*スマホ＆共通*/
+.container {
+    width: 100%;
+    display: grid;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+header img {
+    width: auto;
+    height: 100%;
+    margin-right: 5px;
+}
+
+header h1 {
+    font-size: 27px;
+    z-index: 3;
+    color: #000;
+}
+
+.Zenn {
+    width: 94.02px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.login {
+    width: 113px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.login a {
+    width: 20px;
+    height: 20px;
+    margin: auto 0;
+}
+
+.login p {
+    padding: 10px 12px;
+    background-color: #3ea8ff;
+    border-radius: 7px;
+    font-size: 15px;
+    font-weight: bold;
+}
