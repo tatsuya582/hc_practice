@@ -15,18 +15,15 @@ header {
     justify-content: space-between;
     padding: 0 20px;
     box-sizing: border-box;
-}
-
-header img {
-    width: auto;
-    height: 100%;
-    margin-right: 5px;
-}
-
-header h1 {
-    font-size: 27px;
-    z-index: 3;
-    color: #000;
+    & img {
+        width: auto;
+        height: 100%;
+        margin-right: 5px;
+    }
+    & h1 {
+        font-size: 27px;
+        color: #000;
+    }
 }
 
 .Zenn {
@@ -43,18 +40,84 @@ header h1 {
     display: flex;
     justify-content: space-between;
     margin: 20px 0;
+    & a {
+        width: 20px;
+        height: 20px;
+        margin: auto 0;
+    }
+    & p:hover {
+        background-color: rgb(62, 113, 255);
+    }
+    & p {
+        padding: 10px 12px;
+        background-color: #3ea8ff;
+        border-radius: 7px;
+        font-size: 15px;
+        font-weight: bold;
+    }
 }
 
-.login a {
-    width: 20px;
-    height: 20px;
-    margin: auto 0;
+.twitter_table_of_contents {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-top: 1px solid #E4EDF4;
+
 }
 
-.login p {
-    padding: 10px 12px;
-    background-color: #3ea8ff;
-    border-radius: 7px;
-    font-size: 15px;
-    font-weight: bold;
+.Zenn_twitter, .table_of_contents{
+    width: 50%;
+    height: 55px;
+    padding: 0 14px;
 }
+
+.Zenn_twitter {
+    display: flex;
+    justify-content: center;
+    & img {
+        width: 38px;
+        height: 38px;
+        border-radius: 50%;
+    }
+    & .Zenn_official {
+        width: 75px;
+        height: 25px;
+        padding: 13px 0 13px 5px;
+        font-size: 14px;
+    }
+}
+
+.arrow {
+    width: 13px;
+    height: 13px;
+    border: 5px solid;
+    border-color:  transparent transparent #565656 #565656;
+    transform: rotate(-45deg);
+  }
+
+  .title {
+    width: 100%;
+    height: 268px;
+    display: flex;
+    justify-content: center;
+    background-color: #EDF2F7;
+    & img {
+        width: 70px;
+        height: 70px;
+    }
+    & p {
+        color: #65717B;
+        font-size: 14.5px;
+    }
+    & h3 {
+        font-size: 22.3px;
+    }
+    .title_content {
+        height: 168px;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: space-between;
+        margin: auto 0;
+    }
+
+  }
